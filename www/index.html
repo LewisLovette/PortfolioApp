@@ -4,9 +4,18 @@
         <meta charset="utf-8">
         <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
         <title>Blank App</title>
+        <script type="text/javascript" charset="utf-8" src="/js/testCode.js"></script>
+        <script>
+			function myFunction() {
+			    	document.getElementById("title").style.color = "red";
+			}
+		</script>
     </head>
-    <body>
+    <body onload="init();">
         <script type="text/javascript" src="cordova.js"></script>
-        <h1>Testing out this bad boi</h1>
+        <h1 id="title">Button Test</h1>
+       	<form id="buttonTest">
+           <input type="button" value="Click Me Boii" onclick="myFunction()" />
+    	</form>
     </body>
 </html>
