@@ -6,6 +6,5 @@ function init() {
 }
 
 function changeColor(){
-    document.getElementById("title").style.color = "red";
+    document.getElementById("title").style.color = "blue";
 }
-
