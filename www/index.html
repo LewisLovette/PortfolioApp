@@ -11,9 +11,13 @@
     </head>
 
     <body onload="init();" bgcolor="#98AFC7">
-        <!-- <script type="text/javascript" src="cordova.js"></script> not sure if I need this-->
+        <script type="text/javascript" src="cordova.js"></script>
         <h1 id="title">Portfolio App - Very Pre-Alpha</h1>
-		<input type="button" value="Portfolio Page" onclick="mainToPortfolio()" class="button"/>
-
+        <div class="btn-toolbar">
+    		<button type="button" onclick="mainToPortfolio()" class="toPortfolio"/>Portfolio Page</button>
+            <button type="button" onclick="mainToTrends()" class="toTrends"/>Trends Page</button>
+            <button type="button" onclick="mainToPortfolio()" class="filler"/>Filler</button>
+            <button type="button" onclick="mainToTrends()" class="filler"/>Filler</button>
+        </div>
     </body>
 </html>

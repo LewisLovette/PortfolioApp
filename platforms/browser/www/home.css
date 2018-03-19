@@ -1,4 +1,11 @@
-.button{
+/* Homepage Navigation Designs */
+.filler{
+	height: 200px; 
+	width: 343px;
+	font-family: "Times New Roman", Times, serif;
+	background-repeat:no-repeat;
+}
+.toPortfolio{
 	height: 200px; 
 	width: 343px;
 	background-image: url("www-img/graph.PNG");
@@ -6,3 +13,12 @@
     /*background-color: #4CAF50; */		/* Green */
     border: none;
 }
+.toTrends{
+	height: 200px; 
+	width: 343px;
+	font-family: "Times New Roman", Times, serif;
+	background-repeat:no-repeat;
+    /*background-color: #4CAF50; */		/* Green */
+    border: none;
+}
+
